@@ -1,20 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": [
-      "WebWorker",
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
-    "types": [
-      "vite/client",
-    ],
+    "lib": ["WebWorker", "DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client"],
     "baseUrl": ".",
     "paths": {
-    "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -28,10 +19,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "noImplicitAny": false,
+    "noImplicitAny": false
     // "noUnusedLocals": false
   },
-  "include": [
-    "./src",
-  ]
+  "include": ["./src"]
 }
